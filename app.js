@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('form').forEach(f=>f.addEventListener('submit',()=>{const b=f.querySelector('button[type="submit"],button:not([type])');if(b){b.disabled=true;b.textContent='Processing…'}}))});
